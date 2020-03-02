@@ -4,63 +4,63 @@
 
     ..*B.E.M
 
-    ..*Advanced CSS and SASS
+    *Advanced CSS and SASS
 
-    ..*Animations without Javascript
+    *Animations without Javascript
 
-    ..*NPM Scripts
+    *NPM Scripts
 
-    ..*Desktop Approach
+    *Desktop Approach
 
-    ..*Modern CSS Properties but before using them always check CanIUse
+    *Modern CSS Properties but before using them always check CanIUse
 
-    ..*Responsive Grid System For more Info
+    *Responsive Grid System For more Info
 
 
 ### Implements 7-1 CSS Architecture
 
 sass/
 |
-|– abstracts/
-|   |– _variables.scss    # Sass Variables
-|   |– _functions.scss    # Sass Functions
-|   |– _mixins.scss       # Sass Mixins
-|   |– _placeholders.scss # Sass Placeholders
+|â€“ abstracts/
+|   |â€“ _variables.scss    # Sass Variables
+|   |â€“ _functions.scss    # Sass Functions
+|   |â€“ _mixins.scss       # Sass Mixins
+|   |â€“ _placeholders.scss # Sass Placeholders
 |
-|– base/
-|   |– _reset.scss        # Reset/normalize
-|   |– _typography.scss   # Typography rules
-|   …                     # Etc.
+|â€“ base/
+|   |â€“ _reset.scss        # Reset/normalize
+|   |â€“ _typography.scss   # Typography rules
+|   â€¦                     # Etc.
 |
-|– components/
-|   |– _buttons.scss      # Buttons
-|   |– _carousel.scss     # Carousel
-|   |– _cover.scss        # Cover
-|   |– _dropdown.scss     # Dropdown
-|   …                     # Etc.
+|â€“ components/
+|   |â€“ _buttons.scss      # Buttons
+|   |â€“ _carousel.scss     # Carousel
+|   |â€“ _cover.scss        # Cover
+|   |â€“ _dropdown.scss     # Dropdown
+|   â€¦                     # Etc.
+
+|â€“ layout/
+|   |â€“ _navigation.scss   # Navigation
+|   |â€“ _grid.scss         # Grid system
+|   |â€“ _header.scss       # Header
+|   |â€“ _footer.scss       # Footer
+|   |â€“ _sidebar.scss      # Sidebar
+|   |â€“ _forms.scss        # Forms
+|   â€¦                     # Etc.
+
+|â€“ pages/
+|   |â€“ _home.scss         # Home specific styles
+|   |â€“ _contact.scss      # Contact specific styles
+|   â€¦                     # Etc.
+
+|â€“ themes/
+|   |â€“ _theme.scss        # Default theme
+|   |â€“ _admin.scss        # Admin theme
+|   â€¦                     # Etc.
+
+|â€“ vendors/
+|   |â€“ _bootstrap.scss    # Bootstrap
+|   |â€“ _jquery-ui.scss    # jQuery UI
+|   â€¦                     # Etc.
 |
-|– layout/
-|   |– _navigation.scss   # Navigation
-|   |– _grid.scss         # Grid system
-|   |– _header.scss       # Header
-|   |– _footer.scss       # Footer
-|   |– _sidebar.scss      # Sidebar
-|   |– _forms.scss        # Forms
-|   …                     # Etc.
-|
-|– pages/
-|   |– _home.scss         # Home specific styles
-|   |– _contact.scss      # Contact specific styles
-|   …                     # Etc.
-|
-|– themes/
-|   |– _theme.scss        # Default theme
-|   |– _admin.scss        # Admin theme
-|   …                     # Etc.
-|
-|– vendors/
-|   |– _bootstrap.scss    # Bootstrap
-|   |– _jquery-ui.scss    # jQuery UI
-|   …                     # Etc.
-|
-`– main.scss              # Main Sass file
+`â€“ main.scss              # Main Sass file
