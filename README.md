@@ -64,3 +64,6 @@ sass/
   …                     # Etc.
 
 `– main.scss              # Main Sass file
+
+
+Disclaimer: I do not own this project, was a part of the tutorial I followed.
